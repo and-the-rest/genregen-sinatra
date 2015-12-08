@@ -12,3 +12,9 @@ $ git clone git@github.com:and-the-rest/genregen-sinatra.git
 $ cd genregen-sinatra
 $ bundle
 ```
+
+### Running
+
+```bash
+$ ruby app.rb # takes normal sinatra arguments
+```
