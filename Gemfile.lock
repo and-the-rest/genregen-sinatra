@@ -1,17 +1,17 @@
 GEM
   remote: https://rubygems.org/
   specs:
-    genregen (0.0.2)
+    genregen (0.0.4)
     haml (4.0.7)
       tilt
     rack (1.6.4)
     rack-protection (1.5.3)
       rack
-    sinatra (1.4.6)
-      rack (~> 1.4)
+    sinatra (1.4.7)
+      rack (~> 1.5)
       rack-protection (~> 1.4)
       tilt (>= 1.3, < 3)
-    tilt (2.0.1)
+    tilt (2.0.2)
 
 PLATFORMS
   ruby
@@ -22,4 +22,4 @@ DEPENDENCIES
   sinatra
 
 BUNDLED WITH
-   1.10.6
+   1.11.2
