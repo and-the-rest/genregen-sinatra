@@ -1,9 +1,11 @@
 !!!
 %html
-	%head
-		%title The Genre Generator
-		%link(rel="stylesheet" href="css/style.css")
-	%body
-		%h1 How about some...#{genre}?
-		%h2
-			%a(href=".") Give me another!
+    %head
+        %title The Genre Generator
+        %link(rel="stylesheet" href="css/style.css")
+    %body
+        %h1 How about some...#{genre}?
+        %h2
+            %a(href="https://www.youtube.com/results?search_query=#{CGI.escape genre}") YouTube!
+        %h2
+            %a(href=".") Give me another!
