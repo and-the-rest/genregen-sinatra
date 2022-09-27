@@ -6,16 +6,16 @@ GEM
       temple (>= 0.8.2)
       thor
       tilt
-    mustermann (2.0.2)
+    mustermann (3.0.0)
       ruby2_keywords (~> 0.0.1)
     rack (2.2.4)
-    rack-protection (2.2.2)
+    rack-protection (3.0.0)
       rack
     ruby2_keywords (0.0.5)
-    sinatra (2.2.2)
-      mustermann (~> 2.0)
-      rack (~> 2.2)
-      rack-protection (= 2.2.2)
+    sinatra (3.0.0)
+      mustermann (~> 3.0)
+      rack (~> 2.2, >= 2.2.4)
+      rack-protection (= 3.0.0)
       tilt (~> 2.0)
     temple (0.8.2)
     thor (1.2.1)
