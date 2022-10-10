@@ -2,7 +2,7 @@ GEM
   remote: https://rubygems.org/
   specs:
     genregen (0.0.8)
-    haml (6.0.4)
+    haml (6.0.6)
       temple (>= 0.8.2)
       thor
       tilt
@@ -20,6 +20,7 @@ GEM
     temple (0.8.2)
     thor (1.2.1)
     tilt (2.0.11)
+    webrick (1.7.0)
 
 PLATFORMS
   ruby
@@ -28,6 +29,7 @@ DEPENDENCIES
   genregen
   haml
   sinatra
+  webrick
 
 BUNDLED WITH
    1.16.2
