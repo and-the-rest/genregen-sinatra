@@ -1,7 +1,7 @@
 GEM
   remote: https://rubygems.org/
   specs:
-    genregen (0.0.8)
+    genregen (0.0.9)
     haml (6.0.12)
       temple (>= 0.8.2)
       thor
